@@ -13,7 +13,7 @@ export default function Footer() {
         className="max-w-6xl mx-auto px-5 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-4"
       >
         <p className="font-display font-bold text-lg text-white">
-          PP<span className="text-[var(--color-accent-teal)]">.</span>
+          PB<span className="text-[var(--color-accent-teal)]">.</span>
         </p>
         <p className="text-xs sm:text-sm text-[var(--color-muted)]">
           &copy; 2024 &mdash; Present &middot; Priyabrata Panda

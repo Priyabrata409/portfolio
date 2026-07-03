@@ -24,7 +24,7 @@ export default function Navbar() {
     <motion.nav
       initial={{ y: -80 }}
       animate={{ y: 0 }}
-      transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+      transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
           ? 'bg-[var(--color-dark)]/90 backdrop-blur-xl border-b border-[var(--color-dark-border)]'
@@ -33,7 +33,7 @@ export default function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-5 sm:px-8 h-16 sm:h-18 flex items-center justify-between">
         <a href="#" className="font-display font-bold text-xl tracking-tight text-white">
-          PP<span className="text-[var(--color-accent-teal)]">.</span>
+          PB<span className="text-[var(--color-accent-teal)]">.</span>
         </a>
 
         <div className="hidden md:flex items-center gap-7">
